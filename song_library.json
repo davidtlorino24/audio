@@ -1,0 +1,30 @@
+{
+  "songs": [
+    {
+      "title": "She Got What Yours Don't",
+      "artist": "NMBA",
+      "file": "She Got What Yours Don't.mp3"
+    },
+    {
+      "title": "Tease The Throne",
+      "artist": "NMBA",
+      "file": "Tease The Throne (1).mp3"
+    },
+    {
+      "title": "Mean What I Say",
+      "artist": "NMBA",
+      "file": "Mean What I Say (1).mp3"
+    },
+    {
+      "title": "Another Song",
+      "artist": "Artist Name",
+      "file": "Another Song.mp3"
+    },
+    {
+      "title": "Yet Another Song",
+      "artist": "Another Artist",
+      "file": "Yet Another Song.mp3"
+    }
+    // Add more songs as needed
+  ]
+}

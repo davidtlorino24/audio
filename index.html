@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Audio Player</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<script src="jquery.min.js"></script>
+<body>
+    <h1>NMBA_RADIO</h1>
+    <div class="currently-playing">
+        <h2 id="currentSong">song 1</h2>
+    </div>
+    <audio id="audioPlayer" controls>
+        <source src="She Got What Yours Don't.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+    <div class="controls">
+        <button onclick="playPause()">Play/Pause</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="nextSong()">Next</button>
+        <select id="songSelect" onchange="changeSong()">
+            <option value="She Got What Yours Don't.mp3">She Got What Yours Don't</option>
+            <option value="Tease The Throne (1).mp3">Tease The Throne</option>
+            <option value="Mean What I Say (1).mp3">Mean What I Say</option>
+        </select>
+      <input type="range" id="volumeControl" min="0" max="1" step="0.01" onchange="changeVolume()">
+    </div>
+    <div class="progress-bar">
+        <div id="progress"></div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
